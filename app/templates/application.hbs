@@ -13,8 +13,15 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
+          <li>
+            {{#link-to 'sightings'}}Sightings{{/link-to}}
+          </li>
+          <li>
+            {{#link-to 'cryptids'}}Cryptids{{/link-to}}
+          </li>
+          <li>
+            {{#link-to 'witnesses'}}Witnesses{{/link-to}}
+          </li>
         </ul>
       </div>
     </div>
