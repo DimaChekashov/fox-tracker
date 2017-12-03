@@ -1,7 +1,7 @@
-import Route from '@ember/routing/route';
+import Ember from 'ember';
 
-export default Route.extend({
-  beforeModel(){
+export default Ember.Route.extend({
+  beforeModel() {
     this.transitionTo('sightings');
   }
 });
